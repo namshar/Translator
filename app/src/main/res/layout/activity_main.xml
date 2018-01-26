@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.relative.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ryder.com.portfolio.MainActivity">
+
+   <TextView
+        android:layout_width="184dp"
+        android:layout_height="21dp"
+        android:text="Name:- Oreo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="397dp"
+        android:background="@drawable/fb"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteY="397dp"
+        tools:layout_editor_absoluteX="190dp"
+        android:background="@drawable/git"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:layout_editor_absoluteY="397dp"
+        tools:layout_editor_absoluteX="115dp"
+        android:background="@drawable/gmail"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="204dp"
+        android:layout_height="220dp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:background="@drawable/oreo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</android.support.relative.RelativeLayout>
